@@ -1,0 +1,45 @@
+.status-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    height: 5rem;
+    width: 98%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #F1EDEA;
+    margin-top: 1rem;
+  }
+  
+  .logo {
+    width: 5rem;
+    flex: 1 2 30%;
+  }
+  
+  .status-card {
+    display: flex;
+    align-items: center;
+  }
+  
+  .red-dot {
+    height: 1rem;
+    width: 1rem;
+    background-color: #E37074;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .grey-dot {
+    height: 1rem;
+    width: 1rem;
+    background-color: lightgrey;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .grey-line {
+    flex: 1 0 8rem;
+    height: 2px;
+    background-color: lightgrey;
+  }
+  
