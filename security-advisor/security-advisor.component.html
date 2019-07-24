@@ -1,10 +1,26 @@
 <div *ngIf="vpn" class="status-bar">
-  <div class="logo">
-    <!-- <img src="../../../../assets/surfeasy-logo.svg" /> -->
-  </div>
+  <div>VPN</div>
   <div class="status-card" *ngIf="vpn.status === 'not-installed'">
     <div class="red-dot"></div>
     <div class="grey-line"></div>
     <div class="grey-dot"></div>
   </div>
 </div>
+<div *ngIf="password" class="status-bar">
+  <div>Password</div>
+  <div class="status-card">
+    <div class="red-dot"></div>
+    <div class="grey-line"></div>
+    <div class="grey-dot"></div>
+  </div>
+</div>
+<div *ngIf="windowsHello" class="status-bar">
+  <div>WindowsHello</div>
+  <div class="status-card">
+    <div class="red-dot"></div>
+    <div class="grey-line"></div>
+    <div class="grey-dot"></div>
+  </div>
+</div>
+
+

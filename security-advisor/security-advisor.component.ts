@@ -27,4 +27,7 @@ export class SecurityAdvisorComponent implements OnInit {
     this.securityAdvisor.refresh();
   }
 
+  download() {
+
+  }
 }
