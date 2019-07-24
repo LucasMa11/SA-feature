@@ -1,2 +1,10 @@
-<div>-----------------------------------------------------------------------------------</div>
-<p>security-advisor works!</p>
+<div *ngIf="vpn" class="status-bar">
+  <div class="logo">
+    <!-- <img src="../../../../assets/surfeasy-logo.svg" /> -->
+  </div>
+  <div class="status-card" *ngIf="vpn.status === 'not-installed'">
+    <div class="red-dot"></div>
+    <div class="grey-line"></div>
+    <div class="grey-dot"></div>
+  </div>
+</div>
